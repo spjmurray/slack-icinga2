@@ -1,0 +1,22 @@
+Source: slack-icinga2
+Section: admin
+Priority: optional
+Maintainer: Simon Murray <spjmurray@yahoo.co.uk>
+Build-Depends: debhelper (>=9)
+Standards-Version: 3.9.7
+Homepage: http://www.icinga.org
+
+Package: slack-icinga2
+Architecture: all
+Depends: ${misc:Depends}, base-passwd (>= 3.5.0)
+Recommends: apache2 (>= 2.0.0)
+Description: Icinga2 integration for Slack messaging
+ Slack-Icinga2 is a PHP web application which accepts HTTPS slash commands from
+ the Slack messaging service and uses them to generate commands against the
+ Icinga2 API.
+ .
+ Features:
+  * secure end-to-end SSL communication;
+  * listing host and service downtimes;
+  * creating and removing host and service downtimes;
+  * applies downtimes to a single resource or multiple resources via filters;

@@ -1,0 +1,19 @@
+{
+  "host": "icinga2.example.com",
+  "port": "5665",
+  "username": "johndoe",
+  "password": "password",
+  "ssl_ca": "/etc/slack-icinga2/ssl/ca.pem",
+  "ssl_cert": "/etc/slack-icinga2/ssl/slack-icinga2.pem",
+  "ssl_key": "/etc/slack-icinga2/ssl/slack-icinga2.key",
+  "token": "xxxxxxxxxxxxxxxxxxxxxxxxx",
+  "commands": [
+    "Help",
+    "HostDowntimeList",
+    "HostDowntimeCreate",
+    "HostDowntimeRemove",
+    "ServiceDowntimeList",
+    "ServiceDowntimeCreate",
+    "ServiceDowntimeRemove"
+  ]
+}
